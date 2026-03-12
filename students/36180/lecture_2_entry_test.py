@@ -11,3 +11,4 @@ print(float_number)
 print(type(float_number))
 
 new_number = int(float_number)p
+print(new_number)
