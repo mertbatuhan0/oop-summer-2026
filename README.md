@@ -5,7 +5,7 @@
 ## Required Accounts
 
 - [ ] GitHub account
-- [ ] Gmail account
+- [ ] w3schools account (https://www.w3schools.com/python/default.asp)
 - [ ] Discord account
 
 https://discord.gg/w3MTztjY
