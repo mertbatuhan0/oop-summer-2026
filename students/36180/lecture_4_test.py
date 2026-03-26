@@ -9,7 +9,7 @@ class car :
 
 
 c1 = car("mercedes","5",False)
-print(t1)
+print(c1)
 
 
 MIN_PASSWORD_LENGTH = 8
