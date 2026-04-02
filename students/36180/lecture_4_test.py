@@ -1,16 +1,17 @@
+from datetime import datetime
 
 my_favorite_food = "kebab"
 
-class car : 
+class Car: 
     def __init__ (self ,brand,size):
         self.brand = brand
         self.size = size  
         self.isworking = False 
+        self.creation_time = datetime.now()
 
+c1 = Car("mercedes","5")
 
-c1 = car("mercedes","5",False)
-print(c1)
-
+print("created date",c1.creation_time)
 
 MIN_PASSWORD_LENGTH = 8
 
