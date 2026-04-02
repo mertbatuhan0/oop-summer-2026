@@ -1,6 +1,5 @@
 class Smartphone:
     def __init__(self, brand, model, storage_gb):
-      
         self.brand = brand
         self.model = model
         self.storage_gb = storage_gb
