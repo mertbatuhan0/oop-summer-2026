@@ -1,5 +1,7 @@
-import requests
+import requests,random
 
-news = requests.get('https://www.trthaber.com/haber/gundem/')
+website = requests.get('https://www.trthaber.com/haber/gundem/')
 
-print(news.text)
+new = website.text.split('<a')   # metni linklere göre böl
+choosen = random.choice(new)
+print(choosen)
